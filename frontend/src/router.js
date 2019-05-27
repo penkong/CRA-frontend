@@ -1,5 +1,5 @@
 //this is kind of App.js
-import './App.css';
+// import './App.css';
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
@@ -12,7 +12,7 @@ import NotFoundPage from './pages/NotFoundPage';
 
 const AppRouter = () => (
   <BrowserRouter>
-    <div>
+    <div className="bg-grey">
       <Header />
       <Switch>
         <Route path="/" component={HomePage} exact={true} />
