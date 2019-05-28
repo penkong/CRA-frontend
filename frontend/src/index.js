@@ -1,6 +1,7 @@
 //that is kind of client.js
 import 'normalize.css/normalize.css';
-import './styles/main.scss';
+
+import './index.scss';
 import './assets/font.css';
 import * as serviceWorker from './serviceWorker';
 import React from 'react';
