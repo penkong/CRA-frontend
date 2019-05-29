@@ -3,8 +3,8 @@ import React from 'react'
 
 const RoundImgLink = ({ src, alt }) => {
   return (
-    <a className="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mv4 mb0-l" href="#" title="Home">
-      < img className = "dib w4 h4 br-100 mt2 ml2"
+    <a className="db dtc-l v-mid mid-gray link grow w-100 w-50-l tc mv4 mb0-l" href="/" title="Logo">
+      < img className = "dib w4 w5-l h4 h5-l br-100 mt2 mt3-l ml2 ml4-l"
       src={src}
       alt={alt}/>
     </a>

@@ -11,7 +11,7 @@ import NotFoundPage from './pages/NotFoundPage';
 
 const AppRouter = () => (
   <BrowserRouter>
-    <div>
+    <div className="helvetica">
       <Header />
       <Switch>
         <Route path="/" component={MainPage} exact={true} />

@@ -11,7 +11,7 @@ const MainPage = () => {
         <h4 className="f3 fw4 i lh-title mt0"></h4>
         </header>
         <section className="pt4 pb3">
-          <p className="times lh-copy measure f4 mt0">
+          <p className="helvetica times lh-copy measure f4 mt0">
           Hi,I am <strong className="inlinemv2">Mazdak</strong>  self-thought JavaScript web developer, designer, moving toward fullstack and in love with machine learning.<br/> enjoy to help you.
           <br/>
           Till Now :
