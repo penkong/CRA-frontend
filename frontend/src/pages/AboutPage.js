@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const PortfolioPage = () => (
+const AboutPage = () => (
   <div>
     <h1>My Work</h1>
     <p>Checkout the stuff I've done:</p>
@@ -10,4 +10,4 @@ const PortfolioPage = () => (
   </div>
 );
 
-export default PortfolioPage;
+export default AboutPage;

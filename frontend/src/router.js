@@ -4,9 +4,11 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Header from './components/Header/Header';
+
 import MainPage from './pages/MainPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+
 import NotFoundPage from './pages/NotFoundPage';
 
 const AppRouter = () => (
