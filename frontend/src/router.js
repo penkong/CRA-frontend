@@ -13,8 +13,8 @@ import NotFoundPage from './pages/NotFoundPage';
 
 const AppRouter = () => (
   <BrowserRouter>
-    <div className="helvetica bg-black-5">
-      <Header />
+    <div>
+      <Header/>
       <Switch>
         <Route path="/" component={MainPage} exact={true} />
         <Route path="/about" component={AboutPage} exact={true} />

@@ -12,7 +12,7 @@ class MainPage extends Component {
           <ContainerW50 float='fl' head='MAZDAK NAZEMI'>
             <InfoSection/>
           </ContainerW50>
-          <ContainerW50 float='fr' head='Skill-set Till Today :'>
+          <ContainerW50 float='fr' head='Skill-set TillToday:'>
             <Button text='CorelDraw' color='bg-black'/>
             <Button text='HTML5' color='bg-red'/>
             <Button text='CSS3' color='bg-orange'/>
