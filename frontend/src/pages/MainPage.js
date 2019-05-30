@@ -28,6 +28,7 @@ class MainPage extends Component {
             <Button text='GraphQl' color='bg-dark-blue'/>
             <Button text='SSR' color='bg-light-red'/>
             <Button text='OOP & FP' color='bg-gold'/>
+            <Button text='& ...' color='bg-dark-red'/>
           </ContainerW50>    
         </div>
       </article>
