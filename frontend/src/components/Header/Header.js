@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import LinkNav from './NavLink';
+import LinkNav from './LinkNav';
 import RoundImgLink from './RoundImgLink';
 
 const Header = () => {
