@@ -1,1 +1,5 @@
 node_modules
+frontend/src/*
+frontend/public/*
+frontend/build/static/css/*.map
+frontend/build/static/js/*.map
