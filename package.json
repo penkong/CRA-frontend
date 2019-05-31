@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "11.14.0",
+    "npm": "6.9.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penkong/CRA-frontend.git"
+  },
+  "author": "mazdak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/penkong/CRA-frontend/issues"
+  },
+  "homepage": "https://github.com/penkong/CRA-frontend#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "express": "^4.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
