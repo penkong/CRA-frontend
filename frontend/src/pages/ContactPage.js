@@ -9,7 +9,7 @@ const ContactPage = () => {
       <div className="db dt-l w-100 border-box pa3 ph5-l">
         <div className="w-100 w-50-l pa4 center">
           <blockquote className="athelas ml0 mt0 pl3 black-90 bl bw2 b--green tracked-mega-m tracked-mega-l">
-            <p className="f5 f4-m f3-l lh-copy measure mt0">
+            <p className="f4 f4-m f3-l lh-copy measure mt0">
               “The world breaks everyone, and afterward, some are strong at the broken places.”
             </p>
             <br/>

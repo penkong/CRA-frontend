@@ -1,11 +1,19 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-
-const RoundImgLink = ({ src, alt }) => {
+import mlgo from '../../assets/mlgo.png';
+const RoundImgLink = ({ alt }) => {
+  const fullWidth = {
+    left: '50%',
+    marginLeft: '-50vw',
+    marginRight: '-50vw',
+    maxWidth: '100vw',
+    position: 'relative',
+    right: '50%',
+    width: '100vw'
+  }
   return (
-    <a className="db dtc-l v-mid mid-gray link grow w-100 w-25-l tc tl-l mv4 mb0-l" href="/" title="Logo">
-      <img className = "dib w4 w5-l h4 h5-l br-100 mt2 mt3-l ml2 ml3-l"
-      src={src}
+    <a className="db dtc-l v-mid mid-gray link grow w-100 w-25-l br--100 tc tl-l mv4 mb0-l" href="/" title="Logo">
+      <img src={mlgo} className={`dib w4 w5-l h4 h5-l mt2 mt3-l ml2 ml3-l`}
       alt={alt}/>
     </a>
   );
