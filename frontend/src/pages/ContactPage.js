@@ -1,3 +1,4 @@
+/* eslint-disable no-lone-blocks */
 import React from 'react'
 import SocialIcon from '../components/SocialIcon';
 
