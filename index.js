@@ -14,3 +14,6 @@ app.get('/*', function (req, res) {
 });
 
 app.listen(port);
+
+// <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+{/* <link rel="icon" href="/favicon.ico" type="image/x-icon"></link> */}
