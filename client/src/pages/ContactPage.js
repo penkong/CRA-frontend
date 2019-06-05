@@ -18,8 +18,13 @@ const ContactPage = () => {
           </blockquote>
         </div>
       </div>
-      <div className="db dt-l w-100 border-box pa3 ph5-l">
-        <div className="w-100 pa3 center">
+      <div className="db dt-l w-100 border-box">
+        <div className="athelas w-100 f4 f4-m f3-l navy hover-green mb2-l tracked-mega-m tracked-mega-l pa1 center">
+            nazemi.works@gmail.com
+        </div>
+      </div>
+      <div className="db dt-l w-100 border-box pa1 ph5-l">
+        <div className="w-100 pa3 pa4-l center">
           <SocialIcon/>
         </div>
       </div>

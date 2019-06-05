@@ -2,7 +2,6 @@
 import 'normalize.css/normalize.css';
 
 import './index.scss';
-import './assets/font.css';
 import * as serviceWorker from './serviceWorker';
 import React from 'react';
 import ReactDOM from 'react-dom';
