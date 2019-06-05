@@ -1,9 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
+import notFound from '../assets/404.png';
 const NotFoundPage = () => (
   <div>
-    404 - <Link to="/">Go home</Link>
+    <img className="center w-80 w-40-l db mt0 pa5 pt0-l db" src={notFound} alt="not found"/>
+
   </div>
 );
 
