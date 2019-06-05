@@ -6,7 +6,7 @@ import SocialIcon from '../components/SocialIcon';
 
 const ContactPage = () => {
   return (
-    <section className="tc center">
+    <section className="tc center bg-light-gray mw9-l">
       <div className="db dt-l w-100 border-box pa3 ph5-l">
         <div className="w-100 w-50-l pa4 center">
           <blockquote className="athelas ml0 mt0 pl3 black-90 bl bw2 b--green tracked-mega-m tracked-mega-l">
