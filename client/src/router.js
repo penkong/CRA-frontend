@@ -29,7 +29,7 @@ const AppRouter = () => {
           <Route path="/" component={MainPage} exact={true} />
           <Route path="/about" component={AboutPage} exact={true} />
           <Route path="/contact" component={ContactPage} />
-          <Route component={NotFoundPage} />
+          <Route path="/dd" component={NotFoundPage} />
         </Switch>
       </div>
     </BrowserRouter>

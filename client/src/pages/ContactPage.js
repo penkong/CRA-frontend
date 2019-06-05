@@ -19,7 +19,7 @@ const ContactPage = () => {
         </div>
       </div>
       <div className="db dt-l w-100 border-box">
-        <div className="athelas w-100 f4 f4-m f3-l navy hover-green mb2-l tracked-mega-m tracked-mega-l pa1 center">
+        <div className="code w-100 f4 f4-m f3-l navy hover-green mb2-l tracked-mega-m tracked-mega-l pa1 center">
             nazemi.works@gmail.com
         </div>
       </div>

@@ -7,7 +7,7 @@ const Header = () => {
   return (
       <nav className="db dt-l w-100 border-box pa3 ph5-l">
         <RoundImgLink alt="my logo"/>
-        <div className="athelas db dtc-l v-mid w-100 w-50-l tc tr-l fw3 f4">
+        <div className="code db dtc-l v-mid w-100 w-50-l tc tr-l fw3 f4">
           <LinkNav text='Main' br='br' to='/'/>
           <LinkNav text='About' br='br' to='/about'/>
           <LinkNav text='Contact' to='/contact'/>
