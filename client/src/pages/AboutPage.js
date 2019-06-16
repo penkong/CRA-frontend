@@ -5,7 +5,9 @@ import me from '../assets/me.jpg';
 
 
 const AboutPage = () => {
+  const styles = {
 
+  }
   return (
     <div>
     <div className="cf bg-light-gray br3 ph4-m ph5-l pa2">
@@ -23,13 +25,16 @@ const AboutPage = () => {
             It started in Tehran almost 30 years ago, days months ,years past 
             and found myself in shoes of a man that need his big leap.<br/> I was entrepreneur 
             in distribution & the marketing industry after while the sense of awareness came to me of creation, 
-            contribution to help to the world, I chose the harder way and became a self taught developer . Now I ready to play 
+            contribution to help to the world, I chose the harder way and became a self taught developer . Now I ready to better
             harder with more commitment. That's it for now and I am very happy to hear from you . 
             </p>
             <NavLink className ='fr link bg-green hover-bg-navy navy hover-green f4 f4-m f3-l dib br4 ph3 pv2 mr1 mt3 mb2 dib'
               to="/contact"
               activeClassName="is-active" exact={true}>Contact
             </NavLink>
+            <a href="https://maildun.herokuapp.com/" target="_blanck" className ='fr link bg-green hover-bg-navy navy hover-green f4 f4-m f3-l dib br4 ph3 pv2 mr1 mt3 mb2 dib'
+              activeClassName="is-active" exact={true}>Portfolio
+            </a>
           </div>
         </div>
     </div>
