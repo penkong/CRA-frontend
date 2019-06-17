@@ -5,9 +5,6 @@ import me from '../assets/me.jpg';
 
 
 const AboutPage = () => {
-  const styles = {
-
-  }
   return (
     <div>
     <div className="cf bg-light-gray br3 ph4-m ph5-l pa2">
